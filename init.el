@@ -38,11 +38,21 @@
 (leaf macrostep
       :ensure t
       :bind (("C-c e" . macrostep-expand)))
-(provide 'init)
 
-(tool-bar-mode -1) ; Disable toolbar
-(scroll-bar-mode -1) ; Disable scrollbar
-(setq use-file-dialog nil) ; Disable file dialog
+(leaf magit
+  :ensure t)
+(leaf ddskk
+  :ensure t
+  :leaf-defer t
+  :bind (("C-x C-o" . skk-mode)))
+
+(provide 'init)
+;; Disable toolbar
+(tool-bar-mode -1)
+;; Disable scrollbar
+(scroll-bar-mode -1)
+;; Disable file dialog
+(setq use-file-dialog nil)
 (setq default-frame-alist initial-frame-alist)
 
 ;; 作業フォルダを ~/ にする
