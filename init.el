@@ -1,3 +1,9 @@
+;; emacsでやりたいこと
+;; - 書きもの
+;;   - org-mod
+;;   - ブログ執筆
+;; lspはいらないが、text-lintは必要になりそう
+
 ;; leaf.elのインストールコード
 (eval-and-compile
   (when (or load-file-name byte-compile-current-file)
