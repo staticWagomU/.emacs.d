@@ -56,8 +56,8 @@
 (setq default-frame-alist initial-frame-alist)
 
 ;; 作業フォルダを ~/ にする
-(setq default-directory "~/")
-(setq command-line-default-directory "~/")
+(setq default-directory "C:/Users/wagomu/")
+(setq command-line-default-directory "C:/Users/wagomu/")
 
 ;; フォント
 (set-face-attribute 'default nil :family "HackGen Console NF" :height 110)
