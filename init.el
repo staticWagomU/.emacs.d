@@ -63,3 +63,4 @@
 (set-face-attribute 'default nil :family "HackGen Console NF" :height 110)
 (set-fontset-font nil '(#x80 . #x10ffff) (font-spec :family "MS Gothic"))
 (setq use-default-font-for-symbols nil)
+(iswitchb-mode t)
