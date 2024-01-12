@@ -64,3 +64,7 @@
 (set-fontset-font nil '(#x80 . #x10ffff) (font-spec :family "MS Gothic"))
 (setq use-default-font-for-symbols nil)
 (iswitchb-mode t)
+
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
