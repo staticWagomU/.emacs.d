@@ -68,3 +68,11 @@
 (leaf lsp-mode
   :ensure t)
 
+(leaf typescript-mode
+  :ensure t
+  :hook (typescript-mode-hook . lsp))
+
+(leaf go-mode
+  :ensure t
+  :hook (go-mode-hook . lsp))
+
