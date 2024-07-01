@@ -42,3 +42,7 @@
   :ensure t
   :init (doom-modeline-mode 1))
 
+(leaf paredit
+  :ensure t
+  :hook (emacs-lisp-mode-hook . enable-paredit-mode))
+
