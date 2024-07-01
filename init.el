@@ -30,3 +30,11 @@
     ;; initialize leaf-keywords.el
     (leaf-keywords-init)))
 
+(leaf doom-themes
+  :ensure t
+  :init (load-theme 'doom-dracula t))
+
+(leaf doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1))
+
