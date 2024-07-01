@@ -46,3 +46,7 @@
   :ensure t
   :hook (emacs-lisp-mode-hook . enable-paredit-mode))
 
+(leaf undo-tree
+  :ensure t
+  :init (global-undo-tree-mode))
+
