@@ -50,6 +50,9 @@
   :ensure t
   :init (global-undo-tree-mode))
 
+(leaf amx
+  :ensure t)
+
 (leaf which-key
   :ensure t
   :init (which-key-mode))
