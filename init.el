@@ -30,6 +30,10 @@
     ;; initialize leaf-keywords.el
     (leaf-keywords-init)))
 
+(leaf macrostep
+  :ensure t
+  :bind (("C-c e" . macrostep-expand)))
+
 (leaf doom-themes
   :ensure t
   :init (load-theme 'doom-dracula t))
