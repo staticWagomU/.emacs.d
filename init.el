@@ -57,3 +57,7 @@
   :ensure t
   :init (which-key-mode))
 
+(leaf neotree
+  :ensure t
+  :config (setq neo-theme 'arrow ))
+
