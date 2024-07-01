@@ -61,3 +61,7 @@
   :ensure t
   :config (setq neo-theme 'arrow ))
 
+(leaf lsp-ui
+  :ensure t
+  :hook (lsp-mode-hook . lsp-ui-mode))
+
