@@ -50,3 +50,7 @@
   :ensure t
   :init (global-undo-tree-mode))
 
+(leaf which-key
+  :ensure t
+  :init (which-key-mode))
+
