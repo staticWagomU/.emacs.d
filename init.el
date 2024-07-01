@@ -3,6 +3,9 @@
 (tool-bar-mode -1)
 (global-display-line-numbers-mode 1)
 (setq ring-bell-function 'ignore)
+(set-face-attribute 'default nil
+  :family "HackGen Console NF"
+  :height 130)
 
 
 (eval-and-compile
