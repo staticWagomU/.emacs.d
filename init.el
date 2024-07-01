@@ -76,3 +76,7 @@
   :ensure t
   :hook (go-mode-hook . lsp))
 
+(leaf company
+  :ensure t
+  :init (global-company-mode))
+
