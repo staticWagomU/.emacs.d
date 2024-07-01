@@ -65,3 +65,6 @@
   :ensure t
   :hook (lsp-mode-hook . lsp-ui-mode))
 
+(leaf lsp-mode
+  :ensure t)
+
